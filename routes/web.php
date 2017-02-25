@@ -11,7 +11,6 @@
 |
 */
 
-$app->get('/', function () use ($app) {
-	echo "HI";
-	return $app->version();
-});
+$app->get('/', 'MainController@index');
+$app->get('/record', 'MainController@record');
+$app->get('/show', 'MainController@showRecords');
