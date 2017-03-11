@@ -14,3 +14,5 @@
 $app->get('/', 'MainController@index');
 $app->get('/record', 'MainController@record');
 $app->get('/show', 'MainController@showRecords');
+$app->get('/sorted', 'MainController@showRecordsSorted');
+$app->get('/time', 'MainController@time');

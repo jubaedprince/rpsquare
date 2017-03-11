@@ -10,6 +10,6 @@ use Illuminate\Contracts\Auth\Access\Authorizable as AuthorizableContract;
 
 class Entry extends Model
 {
-    protected $fillable = ['process_name'];
+    protected $fillable = ['process_name', 'time'];
 
 }
