@@ -1,3 +1,5 @@
+@extends('layouts.main')
+
 <style>
     h3{
         margin: 4px;

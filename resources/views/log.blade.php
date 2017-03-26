@@ -15,12 +15,14 @@
     <tr>
         <td><h3>Process</h3></td>
         <td><h3>Duration</h3></td>
+        <td><h3>Bundle</h3></td>
     </tr>
 
     @foreach($entries as $entry)
         <tr>
             <td><h3>{{$entry->process_name}}</h3></td>
             <td><h3>{{$entry->time}}</h3></td>
+            <td><h3>{{$entry->bundle_number}}</h3></td>
         </tr>
     @endforeach
 

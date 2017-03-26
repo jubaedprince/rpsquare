@@ -8,8 +8,8 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Contracts\Auth\Access\Authorizable as AuthorizableContract;
 
-class Entry extends Model
+class Bundle extends Model
 {
-    protected $fillable = ['process_name', 'time', 'bundle_number'];
+    protected $fillable = ['quantity', 'finished_quantity', 'end_time'];
 
 }
